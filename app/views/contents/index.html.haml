@@ -1,0 +1,7 @@
+%h1 memo
+- @contents.each do |content|
+  .content
+    .content-date
+      投稿日時：#{content.created_at}
+    .content-content
+      = content.content

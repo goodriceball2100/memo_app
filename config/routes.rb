@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: 'contents#index'
+  get 'contents', to: 'contents#index'
 end
